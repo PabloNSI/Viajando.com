@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VIAJANDO</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="index.html" class="logo"><img src="../images/logo.jpg"></a>
+            <button class="nav-toggle"><img src="../images/icon_3barras.png"></button>
+            <ul class="nav-menu">
+                <li class="nav-menu-item"><a href="../pags/españa.html">ESPAÑA</a></li>
+                <li class="nav-menu-item"><a href="../pags/europa.html">EUROPA</a></li>
+                <li class="nav-menu-item"><a href="../pags/america.html">AMÉRICA</a></li>
+                <li class="nav-menu-item"><a href="../pags/carrito.html">COMPRAR</a></li> 
+            </ul>
+            <a id="carrito_icon"href="../pags/carrito.html" class="nav-menu-item"><img src="../images/icon_carrito.png" class="imagen_header"></a>
+        </nav>
+</header>
+<main>
+    <div class="cuadro_newyork">
+    <section class="cuadro"><h2>¡NOS VAMOS A NUEVA YORK!</h2><br><br>
+        <p>Disfruta de las mejores vacaciones <br>viajando a la ciudad de los rascacielos.</p><br><br><br><br>
+        <button onclick="moverAlCarrito('NUEVA YORK', 4500)"><a href="../pags/carrito.html">COMPRAR</a></button><br><br>
+    </section>
+    </div>
+        
+    <section class="ciudades">
+        <article>
+            <a href="../pags/carrito.html" class="producto" onclick="moverAlCarrito('VIENA', 900)" ><img src="../images/viena.jpg" alt=""></a>
+            <h2>VIENA</h2>
+        </article><article>
+            <a href="../pags/carrito.html" class="producto" onclick="moverAlCarrito('BUENOS AIRES', 2500)">
+                <img src="../images/buenos_aires.jpg"></a>
+            <h3>BUENOS AIRES</h3>
+        </article><article>
+            <a href="../pags/carrito.html" class="producto" onclick="moverAlCarrito('PARIS', 1000)" ><img src="../images/paris.jpg" alt=""></a>
+            <h2>PARÍS</h2>
+        </article>
+    </section>
+    <section class="paises">
+        <a href="../pags/carrito.html"  class="producto" onclick="moverAlCarrito('LIMA', 2700)" ><img src="../images/peru.jpg" alt="" >
+            <h3>PERÚ</h3>
+        </a><a href="../pags/carrito.html" class="producto" onclick="moverAlCarrito('SANTIAGO', 3000)" ><img src="../images/chile.jpg" alt="" >
+            <h3>CHILE</h3>
+        </a><a href="../pags/carrito.html" class="producto" onclick="moverAlCarrito('OTTAWA', 3800)" ><img src="../images/canada.jpg" alt="" >
+            <h3>CANADA</h3>
+        </a><a href="../pags/carrito.html" class="producto" onclick="moverAlCarrito('CIUDAD DE MEXICO', 3000)" ><img src="../images/mexico.jpg" alt="" >
+            <h3>MEXICO</h3>
+        </a><a href="../pags/carrito.html" class="producto" onclick="moverAlCarrito('BRASILIA', 2900)" ><img src="../images/brasil.jpg" alt="" >
+            <h3>BRASIL</h3>
+        </a><a href="../pags/carrito.html" class="producto" onclick="moverAlCarrito('LA HABANA', 3200)" ><img src="../images/cuba.jpg" alt="" >
+            <h3>CUBA</h3>
+        </a>
+    </section>
+    <section class="paises">
+        <a href="../pags/carrito.html" class="producto" onclick="moverAlCarrito('OSLO', 1000)" ><img src="../images/noruega.jpg" alt="" >
+            <h3>NORUEGA</h3>
+        </a><a href="../pags/carrito.html" class="producto" onclick="moverAlCarrito('BERLÍN', 600)" ><img src="../images/alemania.jpg" alt="" >
+            <h3>ALEMANIA</h3>
+        </a><a href="../pags/carrito.html" class="producto" onclick="moverAlCarrito('LISBOA', 900)" ><img src="../images/portugal.jpg" alt="" >
+            <h3>PORTUGAL</h3>
+        </a><a href="../pags/carrito.html" class="producto" onclick="moverAlCarrito('ROMA', 1200)" ><img src="../images/italia.jpg" alt="" >
+            <h3>ITALIA</h3>
+        </a><a href="../pags/carrito.html" class="producto" onclick="moverAlCarrito('ZAGREB', 750)" ><img src="../images/croacia.jpg" alt="" >
+            <h3>CROACIA</h3>
+        </a><a href="../pags/carrito.html" class="producto" onclick="moverAlCarrito('REIKIAVIK', 1000)" ><img src="../images/islandia.jpg" alt="" >
+            <h3>ISLANDIA</h3>
+        </a>
+    </section>
+</main>
+<footer>
+    <div class="foot">
+        <div class="footer1">
+            <div>
+            <h2>SOBRE NOSOTROS</h2>
+            <p class="descripcion"> Viajes únicos, destinos fascinantes.
+                 Descubre el mundo con nuestra agencia.
+                Atención personalizada para hacer realidad tus sueños de aventura.</p>
+            </div>
+            <div class="contacto">
+            <h2>CONTACTO</h2>
+            <p>UBICACIÓN: <br> <a href="https://maps.app.goo.gl/L2sUqaUtkTKLVMvp8">
+                C. Consuegra, 3, 28036 Madrid</a></p>
+            <p >EMAIL: <a href="https://mail.google.com/">info@viajando.com</a></p>
+            </div>
+        </div>
+        <div class="footer2">
+            <div>
+                <h2>ENLACES RÁPIDOS</h2>
+                <a href="index.html">Inicio</a><br>
+                <a href="../pags/carrito.html">Comprar</a><br>
+                <a href="#">BASE DE DATOS</a>
+            </div>
+            <div class="footer_redes">
+                <h2>REDES</h2>
+                <div><a href="https://www.instagram.com/"><img src="../images/icon_instagram.png" alt=""></a>
+                <a href="https://www.facebook.com/"><img src="../images/icon_facebook.png" alt=""></a></div>
+                <div><a href="https://www.youtube.com/"><img src="../images/icon_youtube.png" alt=""></a>
+                <a href="https://twitter.com/"><img src="../images/icon_x.png" alt=""></a></div>
+            </div>
+        </div>
+            
+    </div>
+</footer>
+    <script src="../pags/script.js"></script>
+</body>
+</html>
