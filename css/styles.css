@@ -1,0 +1,393 @@
+html{
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #075da4;
+    height: 100%;
+}
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 100%;
+    padding: 0;
+}
+.header {
+    background-color: #000;
+    height: 100px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    color: #fff;  
+    align-items: center;
+}
+.nav{
+display: flex;
+justify-content: space-between;
+width: auto;
+height: 80px;
+margin:10px 10px ;
+align-items: center;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    height: 80px;
+    width:auto;
+    align-items: center;
+    text-align: center;
+}
+nav img{
+    margin-top: 10px;
+    height:60px;
+}
+.logo{
+    padding: 0 20px;
+    max-width: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu{
+    display: flex;
+    height: auto;
+    margin-right: 40px;
+    list-style: none;
+    left:100%;
+    transition: left 0.3s;
+}
+.nav-menu li{
+    font-size: 18px;
+    margin: 0 0px;
+    line-height: 80px;
+    width: max-content;
+    padding: 8px 12px;
+}
+.nav a:hover{
+    color: #3a89ca;   
+}
+.nav-toggle{
+    color: #000;
+    background:none;
+    border: none;
+    padding: 0px 20px;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+}
+img{
+    transition: all 0.3s ease 0s;
+}
+img:hover {
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-7px);
+  }
+  
+  img:active {
+    transform: translateY(-1px);
+  }
+
+  #imagen_newyork:hover, .logo:hover {
+    transform: scale(1.05);
+  }
+  #imagen_newyork:active, .logo:active{
+    transform: scale(0.95);
+  }
+main {
+    padding: 0 20px;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+main h2, main h4{
+    color: #ffffff;
+    text-align: center;
+}
+.cuadro_newyork{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(../images/gran_ciudad.jpg) center/cover no-repeat;
+  }
+.newyork{
+    position:relative ;
+    display: block;
+    margin-bottom: 1%; 
+}
+.newyork a{
+    z-index: -1;
+    color: #000029;
+    font-weight: 600;
+    text-decoration: none;
+}
+.cuadro{
+    color: #ffffff;
+    font-weight: 900;
+    display: block;
+    background-color: #332f41;
+    border: 2px solid #000000;
+    text-align: center;
+    overflow-y:scroll;
+    border-radius:20px;
+    height: 20%;
+    width: 40%;
+
+}
+.cuadro h2{
+    display: block;
+    margin-top: 20px;
+    font-size: 50px;
+}
+.cuadro a{
+    color: #000000;
+    text-decoration: none;
+}
+.cuadro button{
+    font-size:30px;
+    margin-bottom: 3%;
+    margin-top: -1%;
+    background-color: #fba52d;
+    border-color: #291500;
+    border: solid;
+    border-width: 2px;
+    height: 50px;
+    border-radius:20px;
+}
+.cuadro button a:hover{
+    font-weight: 800;
+}
+
+.ciudades{
+    width: 100%;
+    display:flex;
+    height: auto;
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    color: #ffffff;
+}
+.ciudades a{
+    color: #fff;
+    font-weight: 800;
+    width:100%;
+    text-decoration:none;
+    height: auto;
+    display: block;
+    padding: 0%;
+    text-align: center;
+}
+.ciudades img{
+    width:95%;
+    margin-inline: 3%;
+    height: auto;
+    display: block;
+    padding:0% ;
+}
+
+.ciudades article{
+width: 33%;
+}
+
+
+.paises{
+    width: 100%;
+    display:flex;
+    height: auto;
+    text-align: center;
+    padding: 0%; 
+}
+.paises a{
+    text-decoration: none;
+    color: #ffffff;
+    text-decoration:none;
+    display: block;
+    padding: 0%;
+    margin-inline: 1%;
+}
+.paises img{
+    width:100%;
+    position: relative;
+    padding: 0%;
+}
+.paises h3{
+    font-size: smaller;
+    width: auto;
+}
+footer {
+    white-space:wrap;
+    display: block;
+    position: relative;
+    width: 100%;
+    height: auto;
+    color: #fff;
+    bottom: 0px;
+  }
+
+.foot h2{
+    text-align: center;
+    margin-inline: 1%;
+}
+.foot p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+.foot a{
+    color: #1fb082;
+    text-align: center;
+    font-size: 14px;
+}
+.footer1{
+    height:auto;
+    background-color:#000029;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-inline: 20%;
+}
+.footer2{
+    background-color: #000029;
+    text-align: center;
+    height:auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-inline: 20%;
+}
+.descripcion{
+    width: 80%;
+    margin-inline: 10%;
+}
+.footer_redes{
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5%;
+    text-decoration: none;
+    align-items: center;
+}
+.footer_redes img{
+    height: 70px;
+    width: auto;
+    
+}
+.foot{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    background-color: #000;
+    width: 100%;
+    height:auto;
+    justify-content: space-around;
+}
+productos{
+    flex-wrap: wrap;
+}
+/* CARRITO COMPRA */
+
+.main-carrito{
+    flex-wrap: wrap;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+}
+.main-carrito button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(15, 113, 224);
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px; 
+    cursor: pointer;
+    transition: 0.3s;
+}
+.main-carrito button:hover {
+    background-color: #0c7bc3;
+}
+#productos,#carrito-contenido,#carrito {
+    text-align: center;
+}
+#carrito h2{
+    color: #000;
+}
+.producto_styles{
+    border: 3px solid black;
+    background-color: #ffffff;
+    margin: 10px 0px;
+    padding: 1%;
+    width: 300px;
+}
+#carrito-contenido a, #carrito a {
+    text-decoration: none;
+    color: #000000;
+}
+#carrito button {
+    margin-top: 10px;
+}
+ 
+
+/* RESPONSIVE CSS*/
+@media (max-width: 768px){
+    .nav-menu{
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        background-color: #332f41;
+        position: fixed;
+        top: 80px;
+        width: 100%;
+        padding: 20px 0px;
+        height:50%;
+        overflow-y: auto;
+    }
+    .nav-menu li{
+        line-height: 70px;
+    }
+    .nav-toggle{
+        display: block;
+    }
+    .nav-menu_visible{
+        left:0%;
+    }
+}
+@media (max-width: 600px){
+    
+}
+@media(max-width: 500px){
+    .cuadro h2{
+        font-size: 20px;
+    }
+    .cuadro p, .cuadro button{
+        font-size: 10px;
+    }
+    .paises{
+        flex-wrap: wrap;
+
+    }
+    .paises a{
+        text-decoration: none;
+        color: #ffffff;
+        width:auto;
+        text-decoration:none;
+        height: auto;
+        display: block;
+        padding: 0%;
+        margin-inline: 1%;
+    }
+    .paises img{
+        width:100%;
+        position: relative;
+        padding: 0%;
+    }
+}
+@media(max-width:375px){
+    .producto_styles{
+        width: 250px;
+    }
+}
