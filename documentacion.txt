@@ -1,7 +1,8 @@
 DOCUMENTACIÓN TRABAJO PABLO NICOLÁS SOTO IRAGO:
 
 La estructura de este proyecto queda reflejada en los commits que se han realizado durante
- la modificación del repositorio.
+ la modificación del repositorio. La branch principal del proyecto es la branch Master.
+ En la branch main solamente está la licencia "Unlicense".
 
 Modificaciones del proyecto en orden cronológico:
 
@@ -22,3 +23,10 @@ La nueva funcionalidad del "Inicio de sesion" nos permite manejar las solicitude
 script.php toma los datos ingresados por el usuario en el formulario de contacto, validar los datos 
 para evitar inyecciones SQL u otros posibles riesgos, los almacena en la base dde datos y 
 proporciona una confirmación en forma de "alert", indicando se guarde la información correctamente.
+
+10. Creación de los informes Soto_Pablo_InformeProgramacion.pdf, Soto_Pablo_InformeTesting.pdf y 
+Soto_Pablo_InformeFrameworks.pdf, dentro de la carpeta informes/ como indica la entrega final.
+
+Por último, se modifica este documento. Se actualizan los cambios, los cuales están indicados en GitHub
+según los commits. 
+
