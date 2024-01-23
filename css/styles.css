@@ -4,7 +4,7 @@ html{
     background-color: #075da4;
     height: 100%;
 }
-body {
+body{
     margin: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     width: 100%;
@@ -296,7 +296,7 @@ productos{
     align-items: center ;
     justify-content: center;
 }
-.main-carrito button {
+.main-carrito button, .button_formulario{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(15, 113, 224);
     color: #fff; 
@@ -307,6 +307,7 @@ productos{
     cursor: pointer;
     transition: 0.3s;
 }
+
 .main-carrito button:hover {
     background-color: #0c7bc3;
 }
@@ -322,6 +323,9 @@ productos{
     margin: 10px 0px;
     padding: 1%;
     width: 300px;
+}
+.producto_styles input,.producto_styles textarea{
+ width: auto;
 }
 #carrito-contenido a, #carrito a {
     text-decoration: none;
