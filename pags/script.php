@@ -22,6 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $mensaje = validarDatos($_POST["mensaje"]);
     $sql = "INSERT INTO usuarios (nombre, email, mensaje) VALUES ('$nombre', '$email', '$mensaje')";
     if ($conn->query($sql) === TRUE) {
+        echo "<script> alert('¡Has iniciado sesión correctamente!');</script>";
         echo "<script> window.location.href = '../carpeta_raiz/index.html';</script>";
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
