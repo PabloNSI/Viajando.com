@@ -1,0 +1,24 @@
+DOCUMENTACIÓN TRABAJO PABLO NICOLÁS SOTO IRAGO:
+
+La estructura de este proyecto queda reflejada en los commits que se han realizado durante
+ la modificación del repositorio.
+
+Modificaciones del proyecto en orden cronológico:
+
+1. Creación de index.html: Primera base de la página web.
+2. Creación de styles.css: Integración de estilos en index.html.
+3. Creación de carpetas principales: carpeta_raiz/, css/, pags/ y images/.
+4. Creación de páginas secundarias, enlace con css y por último agrgar las imagenes a images/.
+5. Creación de archivo script.script y carrito.html. Modelo de ambos copiado del classroom.
+6. Creación archivo script.php y formulario.php. Creación del "Inicio de sesión".
+7. Modificación de "header" de todos los .html para incluir el inicio de sesión. 
+Enlace de styles.css con carrito.html.
+8. Creación database/ y formulario_contacto_usuarios.sql. Archivo de la base de datos.
+9.Creación de documentación.txt. Documento de texto donde se registran los cambios pasados y
+ presentes de código, además de la nueva funcionalidad de la pagina web: "Inicio de sesión".
+
+La nueva funcionalidad del "Inicio de sesion" nos permite manejar las solicitudes de los usuarios
+ que contacten a travésdel formulario de contacto, guardando esta información en la base de datos. 
+script.php toma los datos ingresados por el usuario en el formulario de contacto, validar los datos 
+para evitar inyecciones SQL u otros posibles riesgos, los almacena en la base dde datos y 
+proporciona una confirmación en forma de "alert", indicando se guarde la información correctamente.
