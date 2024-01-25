@@ -9,4 +9,4 @@ $id_comentario = isset($_REQUEST['id_comentario']) ? $_REQUEST['id_comentario'] 
 $miConsulta = $miPDO->prepare('DELETE FROM comentario WHERE id_comentario = ?');
 $miConsulta->execute([ $id_comentario]);
 header('Location: blog.php');
-?>
+?> 

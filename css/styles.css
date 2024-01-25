@@ -327,7 +327,7 @@ productos{
 .producto_styles input,.producto_styles textarea{
  width: auto;
 }
-#carrito-contenido a, #carrito a {
+#carrito-contenido a, #carrito a , .div-opinion a{
     text-decoration: none;
     color: #000000;
 }

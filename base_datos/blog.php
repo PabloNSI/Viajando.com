@@ -55,7 +55,7 @@ $id_comentario = isset($_REQUEST['id_comentario']) ? $_REQUEST['id_comentario'] 
                <td><?php if ($valor['id_comentario'] > 5): ?>
                         <a class="button_php" href="borrar.php?id_comentario=<?= $valor['id_comentario'] ?>">Borrar</a>
                     <?php endif; ?></td>
-            </tr>
+            </tr> 
         <?php endforeach;?>
     </table><br>
     <p class="p_php"><a class="button_php" href="nuevo.php">Crear</a></p>

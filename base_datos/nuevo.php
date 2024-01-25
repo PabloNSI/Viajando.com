@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     $miInsert = $miPDO->prepare('INSERT INTO comentario (fkcorreo, fkdestino, texto, calificacion) VALUES (:fkcorreo, :fkdestino, :texto, :calificacion)');
     $miInsert->execute(
         array('fkcorreo' => $fkcorreo, 'fkdestino' => $fkdestino,'texto' => $texto,'calificacion' => $calificacion)
-    ); 
+    );  
     header('Location:blog.php ');
 }
 ?>

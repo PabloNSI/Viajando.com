@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         array('nombre' => $nombre,'correo' => $correo, 'contrasena' => $contrasena)
     );
     header('Location:blog.php ');
-}
+} 
 ?>
 <!DOCTYPE html>
 <html lang="es">

@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 } else {
     $miConsulta = $miPDO->prepare('SELECT * FROM comentario WHERE id_comentario = ?;');
     $miConsulta->execute([$id_comentario]);
-}
+} 
 $query = $miConsulta->fetch();
 ?>
 <!DOCTYPE html>
