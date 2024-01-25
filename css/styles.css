@@ -334,8 +334,33 @@ productos{
 #carrito button {
     margin-top: 10px;
 }
- 
-
+.div-opinion{
+    margin-top: 200px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+/* PHPs */
+table td {
+    border: 2px solid rgb(2, 15, 64);
+    text-align: center;
+    padding: 1.3rem;
+    background-color: #fff;
+}
+.button_php{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(15, 113, 224);
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px; 
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.p_php{
+    text-align: center;
+}
 /* RESPONSIVE CSS*/
 @media (max-width: 768px){
     .nav-menu{
